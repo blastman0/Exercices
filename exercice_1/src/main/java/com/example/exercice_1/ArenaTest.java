@@ -22,7 +22,7 @@ public class ArenaTest {
         if (T.isDead()==true){
             System.out.println("Winner is ");
             V.show();
-            assertFalse(V.isDead());
+            assertFalse(V.isDead()); /* On vérifie ici que le vainqueur n'est pas mort*/
         }
         else if (V.isDead()==true){
             System.out.println("Winner is ");
