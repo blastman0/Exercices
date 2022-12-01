@@ -23,6 +23,13 @@ public class RobotTest {
 
 
     @Test
-    public void isDead() {
+    public void fire_on_dead() {
+        Robot T = new Robot("Atom");
+        Robot V = new Robot("SHi");
+        T.pv=0;
+        V.fire(T);
+        fail("On ne tire pas sur un homme à terre !");
+
+
     }
 }
